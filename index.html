@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dic Dac Doe - FWD Test</title>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body onload="fnLoad()">
+    <div class="container">
+      <center>
+
+      <div class="row">
+        <h1 class="title">Dig Dag Doe</h1>
+          <div class="input-prepend">
+            <select id="matches"></select> Matches to win the game.
+          </div>
+          <div class="input-prepend o-block">
+            <span class="o_label">O</span> won <strong id="o_win" class="win_times">0</strong>
+            <span class="add-on">time(s)</span>
+          </div>
+          <div class="input-prepend x-block">
+            <span class="x_label">X</span> won <strong id="x_win" class="win_times">0</strong>
+            <span class="add-on">time(s)</span>
+          </div>
+
+          <div id="gameBoard">
+            <div id="box1" class="tictacbox">+</div>
+            <div id="box2" class="tictacbox">+</div>
+            <div id="box3" class="tictacbox">+</div>
+            <div id="box4" class="tictacbox">+</div>
+            <div id="box5" class="tictacbox">+</div>
+            <div id="box6" class="tictacbox">+</div>
+            <div id="box7" class="tictacbox">+</div>
+            <div id="box8" class="tictacbox">+</div>
+            <div id="box9" class="tictacbox">+</div>
+          </div>
+
+          <button id="reset" type="button" class="btn btn-success">Restart</button>
+      </div>
+
+      </center>
+    </div> <!-- container -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

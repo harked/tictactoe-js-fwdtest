@@ -1,0 +1,83 @@
+/******* tic-tac-toe ******/
+.title {
+	font-family: 'Aldrich';
+}
+
+.input-prepend {
+	border: 1px solid #ecf0f1;
+	width : 270px;
+	margin: 5px;
+	padding: 5px;
+}
+
+#matches {
+	border: none;
+	padding: 3px;
+	margin-right: 5px;
+}
+
+#gameBoard {
+	width: 270px;
+	margin:15px;
+	background-color: #ecf0f1;
+}
+
+.tictacbox {
+	border: 2px solid #bdc3c7;
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+	display: inline-block;
+	cursor: pointer;
+	line-height:60px;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.tictacbox:hover {
+	background-color: #f1c40f;
+}
+
+#reset {
+	cursor:pointer;
+	text-align:center; 
+	text-transform:uppercase;
+	width: 270px;
+	border-radius: 0px;
+	font-family: 'Aldrich';
+	font-size: 15px;
+}
+
+.selected {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.winthegame {
+	background: #27ae60;
+	color: #fff;
+}
+
+.win_times {
+	color: #27ae60;
+}
+
+.o_label {
+	color: #3498db;
+	font-weight: bold;
+}
+.x_label {
+	color: #e74c3c;
+	font-weight: bold;
+}
+
+.x {
+	background-color: #e74c3c;
+}
+
+.o {
+	background-color: #3498db;
+}
+
+
